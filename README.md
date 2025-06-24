@@ -1,11 +1,14 @@
 
-# ⏰ Windows Time Update Script (Advanced)
-A powerful batch script for advanced Windows time synchronization and management. Features NTP sync, service control, configuration, status checks, and support for multiple NTP servers.
+
+# ⏰ Windows Time Update & Group Policy Tools
+A set of advanced batch scripts for Windows administrators, featuring powerful time synchronization and Group Policy management utilities.
 
 ---
 
+
 ## 🚀 Features
 
+### update_time_advanced.bat
 - **Interactive Menu System:** Easy-to-use, guided interface
 - **Quick Time Sync:** One-click time synchronization
 - **Service Management:** Start, stop, and restart Windows Time service
@@ -16,6 +19,15 @@ A powerful batch script for advanced Windows time synchronization and management
 - **Time Difference Checking:** Compare local time with NTP servers
 - **Configuration Reset:** Restore default Windows time settings
 - **Error Handling:** Comprehensive error checking and troubleshooting tips
+
+### PolicyUpdate.bat
+- **Admin Privilege Check:** Ensures script is run as administrator
+- **User & Computer Info:** Displays current user, computer, and date/time
+- **Last Policy Update:** Shows last Group Policy update time (if available)
+- **Logging:** All actions and results are logged to `PolicyUpdate.log`
+- **Error Handling:** Detects and reports errors during update
+- **Restart Option:** Offers to restart the computer if required for policy application
+- **Clear Output:** User-friendly, color-coded messages and prompts
 
 ---
 
@@ -28,14 +40,24 @@ A powerful batch script for advanced Windows time synchronization and management
 
 ---
 
+
 ## 🛠️ Usage
 
-1. **Run as Administrator:**
-   - Right-click the script and select **Run as administrator** for full functionality.
-2. **Follow the Interactive Menu:**
-   - Select options as prompted for configuration and synchronization.
-3. **Troubleshooting:**
-   - The script provides detailed feedback and troubleshooting guidance for common issues.
+### Time Update Script
+1. **Run as Administrator:**  
+   Right-click `update_time_advanced.bat` and select **Run as administrator** for full functionality.
+2. **Follow the Interactive Menu:**  
+   Select options as prompted for configuration and synchronization.
+3. **Troubleshooting:**  
+   The script provides detailed feedback and troubleshooting guidance for common issues.
+
+### Group Policy Update Script
+1. **Run as Administrator:**  
+   Right-click `PolicyUpdate.bat` and select **Run as administrator**.
+2. **Review Information:**  
+   The script displays user/computer info, last update time, and logs all actions.
+3. **Restart Option:**  
+   Choose to restart the computer if prompted for full policy application.
 
 ---
 
