@@ -1,28 +1,49 @@
-# Windows-Time-Update
-Windows Time Update Script - Advanced Version. Features: NTP sync, service management, configuration, status checking, and multiple NTP servers
 
-Key Features:
+# ⏰ Windows Time Update Script (Advanced)
+A powerful batch script for advanced Windows time synchronization and management. Features NTP sync, service control, configuration, status checks, and support for multiple NTP servers.
 
-1. Interactive Menu System - Easy-to-use menu interface
-2. Quick Time Sync - Simple one-click synchronization
-3. Service Management - Start, stop, and restart Windows Time service
-4. NTP Server Configuration - Choose from popular NTP servers or set custom ones
-5. Status Checking - View current time service status and configuration
-6. Force Sync - Perform forced immediate synchronization
-7. Multi-Server Sync - Test and sync with multiple NTP servers
-8. Time Difference Checking - Compare local time with NTP servers
-9. Configuration Reset - Reset to default Windows time settings
-10. Error Handling - Comprehensive error checking and troubleshooting tips
+---
 
-Popular NTP Servers Included:
-•  time.windows.com (Windows default)
-•  pool.ntp.org (NTP Pool Project)
-•  time.nist.gov (NIST Time Server)
-•  time.google.com (Google Public NTP)
+## 🚀 Features
 
-Usage:
-1. Run the script as Administrator for full functionality
-2. Select options from the interactive menu
-3. Follow the prompts for configuration and synchronization
+- **Interactive Menu System:** Easy-to-use, guided interface
+- **Quick Time Sync:** One-click time synchronization
+- **Service Management:** Start, stop, and restart Windows Time service
+- **NTP Server Configuration:** Choose from popular or custom NTP servers
+- **Status Checking:** View current time service status and configuration
+- **Force Sync:** Immediate, forced time sync
+- **Multi-Server Sync:** Test and sync with multiple NTP servers
+- **Time Difference Checking:** Compare local time with NTP servers
+- **Configuration Reset:** Restore default Windows time settings
+- **Error Handling:** Comprehensive error checking and troubleshooting tips
 
-The script provides detailed feedback, error handling, and troubleshooting guidance to help resolve common time synchronization issues.
+---
+
+## 🌐 Popular NTP Servers
+
+- `time.windows.com` (Windows default)
+- `pool.ntp.org` (NTP Pool Project)
+- `time.nist.gov` (NIST Time Server)
+- `time.google.com` (Google Public NTP)
+
+---
+
+## 🛠️ Usage
+
+1. **Run as Administrator:**
+   - Right-click the script and select **Run as administrator** for full functionality.
+2. **Follow the Interactive Menu:**
+   - Select options as prompted for configuration and synchronization.
+3. **Troubleshooting:**
+   - The script provides detailed feedback and troubleshooting guidance for common issues.
+
+---
+
+
+## 🙏 Credits
+
+Created by Hayk.
+
+---
+
+> _Feel free to contribute or suggest improvements!_
